@@ -1,5 +1,5 @@
-# SentenceSmith
-Create amazing content with the power of AI!. SentenceSmith offers an intuitive user interface to interact with the powerful AI and help you create compelling, original content for your website, project, or paper.
+# SentenceSmith - Create amazing content with the power of AI!
+SentenceSmith offers an intuitive user interface to interact with the OpenAI's GPT-3 api and help you create compelling, original content for your website, project, or paper.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
@@ -7,9 +7,13 @@ Create amazing content with the power of AI!. SentenceSmith offers an intuitive 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** React, Express, CSS, openai, MongoDB, and Google OAuth2.0
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Passion for building this
+
+Built on OpenAI's GPT-3 API
+
+GPT-3 is the third-generation natural lanague model of the GPT-n series by OpenAI. This iteration has a capacity of 175 billion machine learning parameters and produces stunning human-like text.
 
 ## Optimizations
 *(optional)*
