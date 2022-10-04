@@ -1,0 +1,26 @@
+.gpt3__header-content__input__response {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  height: 60%;
+  top: 20%;
+
+  border-radius: 10%;
+  background-color: var(--color-footer);
+
+  justify-content: center;
+  align-items: center;
+}
+.gpt3__header-content__input__response--text {
+  color: white;
+}
+
+@media screen and (max-width: 1390px) {
+  .gpt3__header-content__input__response {
+  }
+}
+/* 
+Build the response container on top of header image
+    set responsive media queries and move container
+    
+*/
