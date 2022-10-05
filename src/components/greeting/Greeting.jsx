@@ -3,11 +3,7 @@ import Typewriter from "../typewriter/Typewriter";
 import "./greeting.css";
 
 const Greeting = () => {
-  const text = [
-    "Create a tag line for an ice cream shop.",
-    "Write a Love Letter written in BASIC.",
-    "Generate futuristic ideas for startups, apps, or marketplaces:",
-  ];
+  const text = "Create a tag line for an ice cream shop.";
   return (
     <>
       <h1 className="gradient__text">

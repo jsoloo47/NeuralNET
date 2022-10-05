@@ -1,18 +1,23 @@
 .gpt3__header-content__input__response {
   display: flex;
   position: absolute;
-  width: 90%;
-  height: 60%;
-  top: 20%;
 
-  border-radius: 10%;
+  width: 90%;
+  top: 20%;
+  max-height: 60%;
+  overflow: scroll;
+  border-radius: 25px;
   background-color: var(--color-footer);
+  transition: transform 1s;
 
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 2rem 3rem;
 }
-.gpt3__header-content__input__response--text {
+.gpt3__header-content__input__response__text {
   color: white;
+  font-family: var(--font-family);
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1390px) {

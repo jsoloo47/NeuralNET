@@ -12,10 +12,8 @@ import "./header.css";
 const Header = () => {
   const [prompt, setPrompt] = useState({ text: "" });
   const [responses, setResonses] = useState("");
-
-  // useEffect(() => {
-  //   requestResponse();
-  // }, []);
+  const [isActive, setIsActive] = useState(false);
+  // const [responseContainer, setResponseContianer] = useState();
 
   async function requestResponse() {
     const configuration = new Configuration({
@@ -27,11 +25,13 @@ const Header = () => {
     const response = await openai.createCompletion({
       model: "text-davinci-002",
       prompt: `${prompt.text}`,
-      max_tokens: 15,
+      max_tokens: 200,
     });
     // This is how you access the response from the API
     setResonses(response.data.choices[0].text);
+    setIsActive(true);
   }
+
   return (
     <div className="gpt3__header gpt3__header-padding" id="home">
       <div className="gpt3__header-content">
@@ -41,6 +41,7 @@ const Header = () => {
             autoComplete="off"
             onSubmit={(e) => {
               e.preventDefault();
+              setIsActive(false);
               requestResponse();
             }}
           >
@@ -57,8 +58,13 @@ const Header = () => {
       </div>
 
       <div className="gpt3__header-image">
-        <img src={possibilityImage} />
-        <Response text={responses} />
+        <img
+          src={possibilityImage}
+          style={{
+            opacity: isActive ? "40%" : "100%",
+          }}
+        />
+        <Response text={responses} isActive={isActive} />
       </div>
     </div>
   );

@@ -8,13 +8,13 @@ const Typewriter = ({ text }) => {
   useEffect(() => {
     index.current = 0;
     setCurrentText("");
-  }, [text.length]);
+  }, [text]);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setCurrentText((value) => value + text.charAt(index.current));
       index.current += 1;
-    }, 200);
+    }, 100);
     return () => {
       clearTimeout(timeoutId);
     };
