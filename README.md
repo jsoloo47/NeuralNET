@@ -3,7 +3,7 @@ SentenceSmith offers an intuitive user interface to interact with the OpenAI's G
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
-![alt text](https://github.com/jsoloo47/SentenceSmith/blob/main/public/readMe.png?raw=true)
+![alt text](https://github.com/jsoloo47/jsoloo47/blob/main/SentenceSmith.gif)
 
 ## How It's Made:
 
