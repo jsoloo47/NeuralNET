@@ -3,8 +3,6 @@ import React from "react";
 import { Footer, Features, Header } from "./containers";
 import { CTA, Navbar } from "./components";
 
-// Possibility, Brnd, WhatGPT3,
-
 import "./App.css";
 
 const App = () => (
