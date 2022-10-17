@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import connectDB from "./config/database.js";
 import * as dotenv from "dotenv";
 
-// import postRoutes from "./routes/posts.js";
+import mainRoutes from "./routes/main.js";
 
 dotenv.config({ path: "./config/.env" });
 
@@ -16,6 +16,9 @@ connectDB();
 app.use(bodyParser.json({ limit: "30mb", extended: "true" }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: "true" }));
 app.use(cors());
+app.use(express.json());
+
+app.use("/", mainRoutes);
 
 app.listen(process.env.PORT, () => {
   console.log(

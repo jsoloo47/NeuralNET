@@ -19,7 +19,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   plugins: ["react", "prettier"],
   rules: {
     "import/extensions": 0,
@@ -39,6 +39,13 @@ module.exports = {
       "error",
       {
         allow: ["_d", "_dh", "_h", "_id", "_m", "_n", "_t", "_text"],
+      },
+    ],
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
       },
     ],
     "object-curly-newline": 0,

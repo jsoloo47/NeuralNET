@@ -1,19 +1,20 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import { Footer, Features, Header } from "./containers";
-import { CTA, Navbar } from "./components";
+import { Home } from "./pages";
+import { Login, Signup } from "./containers";
 
 import "./App.css";
 
 const App = () => (
   <div className="App">
     <div className="gradient__bg">
-      <Navbar />
-      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
-    <Features />
-    <CTA />
-    <Footer />
   </div>
 );
 
