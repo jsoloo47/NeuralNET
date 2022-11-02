@@ -11,9 +11,7 @@ SentenceSmith offers an intuitive user interface to interact with the OpenAI's G
 
 Passion for building this
 
-Built on OpenAI's GPT-3 API
-
-GPT-3 is the third-generation natural lanague model of the GPT-n series by OpenAI. This iteration has a capacity of 175 billion machine learning parameters and produces stunning human-like text.
+Built on <a href="google.com">OpenAI's GPT-3 API<a/>
 
 <!--
 ## Optimizations
