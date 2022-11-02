@@ -15,6 +15,7 @@ Built on OpenAI's GPT-3 API
 
 GPT-3 is the third-generation natural lanague model of the GPT-n series by OpenAI. This iteration has a capacity of 175 billion machine learning parameters and produces stunning human-like text.
 
+<!--
 ## Optimizations
 *(optional)*
 
@@ -32,6 +33,4 @@ Take a look at these couple examples that I have in my own portfolio:
 **Twitter Battle:** https://github.com/alecortega/twitter-battle
 
 **Patch Panel:** https://github.com/alecortega/patch-panel
-
-
-
+-->
