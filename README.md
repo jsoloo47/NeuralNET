@@ -1,7 +1,7 @@
 # SentenceSmith - Create amazing content with the power of AI!
 SentenceSmith offers an intuitive user interface to interact with the OpenAI's GPT-3 api and help you create compelling, original content for your website, project, or paper.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** almost done :P
 
 ![alt text](https://github.com/jsoloo47/jsoloo47/blob/main/SentenceSmith.gif)
 
