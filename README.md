@@ -9,9 +9,8 @@ SentenceSmith offers an intuitive user interface to interact with the OpenAI's G
 
 **Tech used:** React, Express, CSS, openai, MongoDB, and Google OAuth2.0
 
-Passion for building this
-
-Built on <a href="google.com">OpenAI's GPT-3 API<a/>
+<!-- Passion for building this here -->
+Built on <a href="https://openai.com/api/">OpenAI's GPT-3 API<a/>
 
 <!--
 ## Optimizations
